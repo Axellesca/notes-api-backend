@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Añadiendo Nota Nueva"
+}
+
+//Separar y Mandar Más Peticiones
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+}
